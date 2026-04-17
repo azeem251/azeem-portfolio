@@ -60,7 +60,7 @@ useEffect(() => {
                                     <h1 className="word">Azeem Ansari</h1>
 
 
-                                   <h3 id="typing-text" ></h3>;
+                                   <h3 id="typing-text" className="text-md"></h3>
 
 
                                     <p className="small-resume">2+ Year of Experience</p>
