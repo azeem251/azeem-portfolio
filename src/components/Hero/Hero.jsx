@@ -63,7 +63,11 @@ useEffect(() => {
                                    <h3 id="typing-text" className="text-md"></h3>
 
 
-                                    <p className="small-resume">2+ Year of Experience</p>
+                                    <p className="small-resume">Frontend Developer with 2+ years of hands-on experience building high-performance, scalable web applications using React.js,
+Redux Toolkit, Tailwind CSS, and modern JavaScript. Proven track record of improving application performance, creating
+reusable component architecture, integrating secure REST APIs, and delivering pixel-perfect responsive UI for real clients.
+Strong understanding of state management, authentication flows, and production deployment.
+</p>
 
 
                                     <Link to="#contact" id="contact-hero-btn">Contact</Link>
