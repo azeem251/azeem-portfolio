@@ -1,4 +1,4 @@
-
+import { useEffect } from "react";
 import hello from "../../assets/hello.gif"
 import { Link } from "react-router-dom";
 import linkedin from "../../assets/linkedin.svg"
