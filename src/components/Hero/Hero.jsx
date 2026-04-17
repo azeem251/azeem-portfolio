@@ -7,7 +7,42 @@ import whatspap from "../../assets/whatsapp.svg"
 import appDevimg from "../../assets/app-dev.png"
 import "./hero.css"
 const Hero = () => {
+useEffect(() => {
+    const words = [
+      "UI Developer",
+      "Web Developer",
+      "Frontend Developer",
+    ];
 
+    let wordIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    const el = document.getElementById("typing-text");
+
+    function type() {
+      const currentWord = words[wordIndex];
+
+      if (isDeleting) {
+        charIndex--;
+      } else {
+        charIndex++;
+      }
+
+      el.textContent = currentWord.substring(0, charIndex);
+
+      if (!isDeleting && charIndex === currentWord.length) {
+        setTimeout(() => (isDeleting = true), 1000);
+      } else if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        wordIndex = (wordIndex + 1) % words.length;
+      }
+
+      const speed = isDeleting ? 50 : 100;
+      setTimeout(type, speed);
+    }
+
+    type();
+  }, []);
 
     return (
         <>
@@ -25,10 +60,10 @@ const Hero = () => {
                                     <h1 className="word">Azeem Ansari</h1>
 
 
-                                    <h3>Frontend Developer</h3>
+                                   <h3 id="typing-text" ></h3>;
 
 
-                                    <p className="small-resume">1 Year of Experience</p>
+                                    <p className="small-resume">2+ Year of Experience</p>
 
 
                                     <Link to="#contact" id="contact-hero-btn">Contact</Link>
