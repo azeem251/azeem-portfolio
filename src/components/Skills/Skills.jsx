@@ -17,7 +17,7 @@ const Skills = () => {
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="progress-baks">
                   <div className="skill">
-                    <div className="skill-name">HTML</div>
+                    <div className="skill-name">HTML5</div>
                     <div className="skill-bar">
                       <div className="skill-percentage"  per="90%" style={{maxWidth:"90%"}}>
                       </div>
@@ -28,7 +28,7 @@ const Skills = () => {
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="progress-baks">
                   <div className="skill">
-                    <div className="skill-name">CSS</div>
+                    <div className="skill-name">CSS3</div>
                     <div className="skill-bar">
                       <div className="skill-percentage" per="83%" style={{maxWidth:"83%"}}>
                       </div>
@@ -50,7 +50,7 @@ const Skills = () => {
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="progress-baks">
                   <div className="skill">
-                    <div className="skill-name">BOOTSTRAP</div>
+                    <div className="skill-name">BOOTSTRAP 5</div>
                     <div className="skill-bar">
                       <div className="skill-percentage"  per="79%" style={{maxWidth:"79%"}}>
                       </div>
@@ -69,10 +69,21 @@ const Skills = () => {
                   </div>
                 </div>
               </div>
+               <div className="col-lg-4 col-md-6 col-sm-6">
+                <div className="progress-baks">
+                  <div className="skill">
+                    <div className="skill-name">TAILWIND CSS</div>
+                    <div className="skill-bar">
+                      <div className="skill-percentage"  per="88%" style={{maxWidth:"88%"}}>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="progress-baks">
                   <div className="skill">
-                    <div className="skill-name">REACT JS</div>
+                    <div className="skill-name">VITE + REACT JS</div>
                     <div className="skill-bar">
                       <div className="skill-percentage"  per="64%" style={{maxWidth:"64%"}}>
                       </div>
