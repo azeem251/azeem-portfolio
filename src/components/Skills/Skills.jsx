@@ -85,7 +85,7 @@ const Skills = () => {
                   <div className="skill">
                     <div className="skill-name">VITE + REACT JS</div>
                     <div className="skill-bar">
-                      <div className="skill-percentage"  per="64%" style={{maxWidth:"64%"}}>
+                      <div className="skill-percentage"  per="84%" style={{maxWidth:"84%"}}>
                       </div>
                     </div>
                   </div>
