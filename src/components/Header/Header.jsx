@@ -2,7 +2,7 @@ import "../Header/header.css";
 import { Link, NavLink } from "react-router-dom";
 import $ from 'jquery'
 import { useEffect } from "react";
-import myCV from '../../assets/my_resume.pdf'
+import myCV from '../../assets/Azeem_Resume_.pdf'
 
 const Header = () => {
     $(document).ready(function () {
