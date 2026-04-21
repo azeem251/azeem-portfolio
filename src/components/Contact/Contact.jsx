@@ -64,7 +64,7 @@ Message: ${form.message}`;
                                             <span style={{color:'red'}}>{errors.name}</span>
                                         </div>
                                         <div className='form_inputs'>
-                                            <input type="email"  onChange={handleChange} value={form.name} id="email" placeholder='Enter Email' />
+                                            <input type="email"  onChange={handleChange} value={form.email} id="email" placeholder='Enter Email' />
                                             <span style={{color:'red'}}>{errors.email}</span>
                                         </div>
                                         <div className='form_inputs'>
