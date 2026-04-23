@@ -51,9 +51,9 @@ const Projects = () => {
                             <div className="demo">
                                 <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={payment} alt="example-image" className="img-fuild" />
                                     <figcaption className="text-center">
-                                        <h3>Online Payment</h3>
-                                        <p className="my-para">Online payment is the electronic transfer of funds via the internet, usually between a merchant and a consumer. These payments can be made in various ways, such as via credit and debit cards.</p>
-                                        <Link to='https://atmbank.co.in' target="__blank" className="show-projectbtn">Show Project</Link>
+                                        <h3>College Skills</h3>
+                                        <p className="my-para">I create this Web Application using the best and most popular javaScript Liblary React js And for the Managing the data i used React hooks.</p>
+                                        <Link to='https://collegeskill.com' target="__blank" className="show-projectbtn">Show Project</Link>
                                     </figcaption>
 
                                 </figure>
@@ -93,9 +93,9 @@ const Projects = () => {
                             <div className="demo">
                                 <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={MirchiImg} alt="example-image" className="img-fuild" />
                                     <figcaption className="text-center">
-                                        <h3>Learning Dashboard</h3>
-                                        <p className="my-para">Learning analytics dashboards (LADs) can analyze user data to create individualized learning paths by recommending content, modules, or assessments based on a students progress</p>
-                                        <Link to='https://learning-dashboard-603c2.web.app' target="__blank"className="show-projectbtn">Show Project</Link>
+                                        <h3>Green Phase Charging Vehicle</h3>
+                                        <p className="my-para">I create this webside using the most react js famous framework Next js and use useState for the managing the data in this application.</p>
+                                        <Link to='https://greenphase.in' target="__blank"className="show-projectbtn">Show Project</Link>
                                     </figcaption>
 
                                 </figure>
