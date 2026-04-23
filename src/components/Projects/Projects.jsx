@@ -49,7 +49,7 @@ const Projects = () => {
 
                         <div className="col-lg-4 col-md-6 ">
                             <div className="demo">
-                                <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={"https://static.wixstatic.com/media/bad1d4_78cefc5eac484b15a39fc7a5d7c52525~mv2.jpeg"} alt="example-image" className="img-fuild" />
+                                <figure className="imghvr-zoom-out-flip-horiz rounded"><img src={payment} alt="example-image" className="img-fuild" />
                                     <figcaption className="text-center">
                                         <h3>College Skills</h3>
                                         <p className="my-para">I create this Web Application using the best and most popular javaScript Liblary React js And for the Managing the data i used React hooks.</p>
